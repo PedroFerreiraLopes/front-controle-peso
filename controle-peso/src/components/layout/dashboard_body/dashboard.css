@@ -1,0 +1,185 @@
+.mainBody {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3vw;
+    padding: 7vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sectionDiv {
+    background-color: #ffffff;
+    width: 83vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    padding: 2vw;
+    padding-top: 0.2vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    column-gap: 8vw;
+}
+
+.dashContentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.balancaPretaDiv {
+    display: flex;
+    column-gap: 1.5vw;
+}
+
+.weightContainer {
+    height: 200px;
+    row-gap: 5px;
+    text-align: left;
+}
+
+.weightMeta {
+    display: flex;
+    column-gap: 5%;
+}
+
+.circles {
+    display: flex;
+    column-gap: 2vw;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    width: 13vw;
+    height: 13vw;
+}
+
+.progressBarBack {
+    background-color: #c4c4c4;
+    height: 20px;
+    width: 87%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.progressBar {
+    background-color: #6AE468;
+    height: inherit;
+    width: 10%;
+    border-radius: inherit;
+}
+
+.timeBar {
+    background-color: #68C6E4;
+    height: inherit;
+    width: 75%;
+    border-radius: inherit;
+}
+
+.gridIMC {
+    display: grid;
+    grid: auto auto / auto auto auto;
+    width: 87%;
+    text-align: center;
+}
+
+.barIMC {
+    width: 100%;
+    height: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 25px;
+
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: -30px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: 4px;
+
+}
+
+h6 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: -30px;
+
+}
+
+.evolutionLabel {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #000000;
+    height: 40px;
+    width: 103px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    border: 1px solid #00000080;
+
+}
+
+.weightInput {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+    width: 47%;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #00000080
+}

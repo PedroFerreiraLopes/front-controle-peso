@@ -1,0 +1,93 @@
+.mainBody {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+.contentDiv {
+    background-color: #ffffff;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    display: flex;
+    align-items: center;
+    padding: 4vw;
+    column-gap: 8vw;
+}
+
+.inputsContainer {
+    width: 399px;
+    margin-right: auto;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+button {
+    color: #ffffff;
+    background-color: #000000;
+    height: 40px;
+    width: 103px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    border: 1px solid #00000080;
+
+}
+
+.largeInput {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #00000080;
+}
+
+.divButtonLogin {
+    display: flex;
+    margin-top: 25px;
+    column-gap: 10%;
+    align-items: center;
+    font-weight: 600;
+}
